@@ -56,14 +56,15 @@ const accountStore = useAccountStore()
 <style lang="scss">
 .app {
   &__header {
+    margin: 20px 0;
     display: flex;
     gap: 15px;
     align-items: center;
-    margin-bottom: 16px;
   }
 
   &__header-title {
     margin: 0;
+    font-size: 24px;
   }
 
   &__add-button {
