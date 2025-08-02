@@ -34,6 +34,9 @@
       </tr>
       </thead>
       <tbody>
+      <tr v-if="accountStore.accounts.length === 0">
+        <td colspan="5" class="text-center">Нет учетных записей</td>
+      </tr>
       <AccountRow
         v-for="account in accountStore.accounts"
         :key="account.id"
