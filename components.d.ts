@@ -15,6 +15,7 @@ declare module 'vue' {
     IMdiEyeOffOutline: typeof import('~icons/mdi/eye-off-outline')['default']
     IMdiEyeOutline: typeof import('~icons/mdi/eye-outline')['default']
     IMdiHelpCircleOutline: typeof import('~icons/mdi/help-circle-outline')['default']
+    IMdiPlus: typeof import('~icons/mdi/plus')['default']
     IMdiTrashCanOutline: typeof import('~icons/mdi/trash-can-outline')['default']
   }
 }

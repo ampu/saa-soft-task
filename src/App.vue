@@ -7,7 +7,7 @@
         type="button"
         @click="accountStore.addAccount(createNewAccount())"
       >
-        +
+        <IMdiPlus/>
       </button>
     </header>
 
